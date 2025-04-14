@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\ASP.NET-B10\\GitAutomationTesting\\AutomationTesting\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{172101EF-A684-4C0F-B1E2-53CD5FA91FFE}|AutomationTesting\\AutomationTesting.csproj|c:\\asp.net-b10\\gitautomationtesting\\automationtesting\\automationtesting\\automationtesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{172101EF-A684-4C0F-B1E2-53CD5FA91FFE}|AutomationTesting\\AutomationTesting.csproj|solutionrelative:automationtesting\\automationtesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutomationTesting",
+              "DocumentMoniker": "C:\\ASP.NET-B10\\GitAutomationTesting\\AutomationTesting\\AutomationTesting\\AutomationTesting.csproj",
+              "RelativeDocumentMoniker": "AutomationTesting\\AutomationTesting.csproj",
+              "ToolTip": "C:\\ASP.NET-B10\\GitAutomationTesting\\AutomationTesting\\AutomationTesting\\AutomationTesting.csproj",
+              "RelativeToolTip": "AutomationTesting\\AutomationTesting.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T04:42:35.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
