@@ -1,4 +1,4 @@
-name: Build and Test ASP.NET MVC
+name: Build and Test
 
 on:
   push:
@@ -8,23 +8,26 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        dotnet-version: [ '8.0.x', '9.0.x' ]  
 
     steps:
-    - name: Checkout repository
+    - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Setup .NET
+    - name: Set up .NET SDK
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '8.0.x'
+        dotnet-version: ${{ matrix.dotnet-version }}
 
-    - name: Restore dependencies
+    - name: Restore
       run: dotnet restore AutomationTesting/AutomationTesting.sln
 
-    - name: Build project
-      run: dotnet build "AutomationTesting/AutomationTesting.sln" --no-restore --configuration Release
+    - name: Clean
+      run: dotnet clean AutomationTesting/AutomationTesting.sln --configuration Release
 
-    - name: Run tests
-      run: dotnet test AutomationTesting/AutomationTesting.sln --no-build --configuration Release
-
+    - name: Build
+      run: dotnet build AutomationTesting/AutomationTesting.sln --configuration Release --no-restore
