@@ -26,4 +26,5 @@ jobs:
       run: dotnet build "AutomationTesting/AutomationTesting.sln" --no-restore --configuration Release
 
     - name: Run tests
-      run: dotnet test --no-build --configuration Release
+      run: dotnet test AutomationTesting/AutomationTesting.sln --no-build --configuration Release
+
