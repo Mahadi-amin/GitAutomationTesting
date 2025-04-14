@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\ASP.NET-B10\\GitAutomationTesting\\AutomationTesting\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{58B86391-199B-4BA1-88BD-B61D93523AD3}|Domain\\Domain.csproj|c:\\asp.net-b10\\gitautomationtesting\\automationtesting\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B86391-199B-4BA1-88BD-B61D93523AD3}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{172101EF-A684-4C0F-B1E2-53CD5FA91FFE}|AutomationTesting\\AutomationTesting.csproj|c:\\asp.net-b10\\gitautomationtesting\\automationtesting\\automationtesting\\automationtesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{172101EF-A684-4C0F-B1E2-53CD5FA91FFE}|AutomationTesting\\AutomationTesting.csproj|solutionrelative:automationtesting\\automationtesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\ASP.NET-B10\\GitAutomationTesting\\AutomationTesting\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Domain\\Class1.cs",
+              "ToolTip": "C:\\ASP.NET-B10\\GitAutomationTesting\\AutomationTesting\\Domain\\Class1.cs",
+              "RelativeToolTip": "Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:21:27.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AutomationTesting.csproj",
               "DocumentMoniker": "C:\\ASP.NET-B10\\GitAutomationTesting\\AutomationTesting\\AutomationTesting\\AutomationTesting.csproj",
               "RelativeDocumentMoniker": "AutomationTesting\\AutomationTesting.csproj",
